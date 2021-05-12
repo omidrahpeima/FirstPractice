@@ -1,0 +1,29 @@
+
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'RACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL ,  `option3` TEXT CHAR...' at line 2
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CURREN_TIMESTAMP
+  )' at line 5
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  firstname VARCHAR(30) CHAR...' at line 1
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '123' for key 'PRIMARY'
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''example2' ('id' INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  'firstname' V...' at line 1
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  firstname VARCHAR(30...' at line 1
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  firstname VARCHAR(30...' at line 1
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''id' INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  'firstname' VARCHAR(30) C...' at line 1
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''firstname' VARCHAR(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT ...' at line 2
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1554' for key 'PRIMARY'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'names' in 'field list'
+SQLSTATE[HY000]: General error: 1007 Can't create database 'secondexample2'; database exists
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it

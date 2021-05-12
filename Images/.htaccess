@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#
+#Blocking Hotlinking
+#When to replace a new page with the Hotlink to notice the king of the type that not be in Forbidden list
+#The article ! is necessary
+#This is importent must not add the directory of 'images' after domain because will be forbidden for domain
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://localhost/FirstPractice/.*$ [NC]
+#RewriteRule .(png|jpg|mp4|pdf)$ - [F]
+# "\ " makes a space
+#RewriteRule .(png|mp4)$ http://localhost/FirstPractice/GDpractice.php?warn=YOU\ CAN\ NOT\ USE\ HOTLINKING! [R,L]
+</IfModule>

@@ -1,0 +1,16 @@
+#Force Downloading instead of being opened
+#AddType application/octet-stream pdf doc
+#It is importent when we use codes above which page that has the link of pdf file to only downloads it
+#
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#
+#Blocking Hotlinking
+#When to replace a new page with the Hotlink to notice the king of the type that not be in Forbidden list
+#The article ! is necessary
+#This is importent must not add the directory of images after domain
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://localhost/FirstPractice/.*$ [NC]
+#RewriteRule .(pdf)$ - [F]
+#RewriteRule .(pdf)$ http://localhost/FirstPractice/Images/edu.jpg [R,L]
+</IfModule>
